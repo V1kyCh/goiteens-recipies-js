@@ -1,0 +1,15 @@
+.recipeImg {
+  width: 400px;
+  border-radius: 30px;
+}
+.recipeItem {
+  background-color: #e2c3c3;
+  padding: 20px;
+  border-radius: 30px;
+}
+.recipeDescription {
+  color: white;
+}
+h2 {
+  color: white;
+}

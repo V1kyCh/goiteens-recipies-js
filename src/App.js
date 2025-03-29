@@ -1,11 +1,12 @@
 import './App.css';
 import data from './recipies.json';
-import { Receptive } from './components/Recipe';
+import { Receptive } from './components/Recipe/Recipe';
 
 function App() {
   return (
     <div className="App">
-      <ul>
+      <h1 className='title'>Menu</h1>
+      <ul className='recipeList'>
         {data.map((recipe) => (
           <Receptive recipe={recipe} />
         ))}
